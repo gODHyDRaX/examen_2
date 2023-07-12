@@ -1,0 +1,242 @@
+.pantalla{
+    width: 100%;
+    height: 600vh;
+
+}
+.inicio{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+    padding: 1rem 0 0 0;
+    
+}
+.logo{
+    display: flex;
+ 
+    width: 14.5rem;
+    height: 3.8rem;
+    justify-content: start;
+    padding: 0 0 0 2rem;
+    place-items: center;
+    justify-content: space-between;
+    font-family: 'Inter';
+}
+.logo img{
+    display: flex;
+}
+.menu {
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    
+    padding: 0 2rem 0 0 ;
+}
+.menu img{
+    display: flex;
+}
+.texto1{
+    font-family: 'inter';
+    display: flex;
+    flex-direction: column;
+    
+    width: 90%;
+    margin: auto;
+    padding: 1.5rem 0 0 0;
+}
+.texto1 h1{
+    display: flex;
+    font-size: 2.8rem;
+    text-align: center;
+}
+.texto1 p{
+    font-size: 1.6rem;
+    text-align: center;
+    display: flex;
+}
+.email{
+    display: flex;
+    width: 85%;
+    height: 4.8rem;
+    margin: auto;
+    font-family: 'inter';
+    border-radius: 1.2rem;
+    border: 1px solid rgba(219, 219, 219, 1);
+    margin-top: 1.5rem;
+}
+.email h1{
+    color: rgb(190, 190, 190);
+    padding: 0 0 0 1rem;
+}
+.contenedor_boton{
+    display: flex;
+    width: 100%;
+    padding: 2rem 0 0 0;
+    flex-direction: column;
+    align-items: center;
+}
+.boton1{
+    display: flex;
+    background-color: rgba(36, 175, 181, 1);
+    width: 190px;
+    height: 65px;
+    justify-content: center;
+    place-items: center;
+    border-radius: 6px;
+    color: white;
+    font-family: 'inter';
+}
+.contenedor_boton span{
+    font-size: 1.1rem;
+    font-family: 'inter';
+    width: 70%;
+    display: flex;
+    text-align: center;
+    padding: 2rem 0 0 0;
+}
+.imagen_cel{
+    margin: auto;
+    display: flex;
+    width: 82%;
+    height: 47rem;
+   place-items: end ;
+    margin-top: 3rem;
+    background-image: url(../img/iPhoneX.png);
+    background-position: center;
+    background-size: contain;
+}
+.imagen_cel div{
+    width: 100%;
+    display: flex;
+    height: 450px;
+    background-color: white;
+    justify-content: center;
+    place-items: center;
+
+
+}  
+.imagen_cel div span{
+    width: 87%;
+    height: 80%;
+    
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: 'inter';
+}
+.contenedor_cel{
+    border-bottom: 1px solid rgba(219, 219, 219, 1);
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding: 2rem 0 0 0;
+}
+.img1{
+    display: flex;
+    width: 4rem;
+    height: 4rem;
+}
+.img1 img{
+    width: 100%;
+    display: flex;
+}
+.items h1{
+font-family: 'inter';
+}
+.items span{
+    width: 100%;
+    font-family: 'inter';
+    font-size: 1.4rem;
+    color: rgba(88, 87, 87, 1);
+}
+.items h2{
+    color: rgba(36, 175, 181, 1);
+}
+.texto2{
+    border-bottom: 1px solid rgba(219, 219, 219, 1);
+}
+.items1{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding: 2rem 0 0 0;
+}
+.items1 h1{
+    font-size: 64px;
+    font-family: 'inter';
+}
+.items1 h2{
+    color: rgba(88, 87, 87, 1);
+    margin-top: -2rem;
+    font-family: 'inter';
+}
+.texto3{
+    border-bottom: 1px solid  rgba(219, 219, 219, 1); 
+}
+.items2-1{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding: 2rem 0 0 0;
+    align-items: center;
+}
+.items2-1 h1{
+    font-size: 50px;
+    font-family: 'inter';
+}
+.items2-1 span{
+    font-size: 30px;
+    text-align: center;
+    width: 85%;
+    font-family: 'inter';
+    color: rgba(88, 87, 87, 1);
+}
+.items2{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding: 2rem 0 0 0;
+    align-items: center;
+    font-family: 'inter';
+}
+.items2 span{
+    font-size: 25px;
+    text-align: center;
+    color: rgba(88, 87, 87, 1);
+}
+.img-{
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    margin: auto;
+    padding: 2rem 0 0 0;
+}
+.texto4{
+    border-bottom: 1px solid rgba(219, 219, 219, 1);
+}
+.items3-1{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding: 2rem 0 0 0;
+    
+    font-family: 'inter';
+}
+.items3-1 h1{
+    font-size: 50px;
+}
+.items3-1 span{
+    font-size: 28px;
+    
+    
+    font-family: 'inter';
+    color: rgba(88, 87, 87, 1);
+}
+
